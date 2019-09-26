@@ -138,7 +138,6 @@ function in_container_refresh_pylint_todo() {
         -path "./airflow/www/node_modules" -prune -o \
         -path "./airflow/www_rbac/node_modules" -prune -o \
         -path "./airflow/_vendor" -prune -o \
-        -path "./airflow/migrations/versions" -prune -o \
         -path "./.eggs" -prune -o \
         -path "./docs/_build" -prune -o \
         -path "./build" -prune -o \
